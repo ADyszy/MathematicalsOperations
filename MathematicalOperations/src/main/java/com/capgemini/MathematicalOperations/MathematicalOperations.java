@@ -9,4 +9,7 @@ public class MathematicalOperations {
 		return result;
 	}
 
+	public static long substract(long minuend, long subtrahend){
+		return minuend - subtrahend;
+	}
 }
