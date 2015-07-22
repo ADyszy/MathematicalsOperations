@@ -24,4 +24,11 @@ public class MathematicalOperations {
 		}
 		throw new IllegalArgumentException("n must be greater than or equal to 0");
 	}
+	
+	public static double divide (double dividend, double divisor){
+		if(divisor!=0){
+			return dividend/divisor;
+		}
+		throw new ArithmeticException("Divisor can't be zero");
+	}
 }
